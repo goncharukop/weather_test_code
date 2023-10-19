@@ -58,7 +58,7 @@ let favoriteArray = ref([]);
 
 function updateFavoriteArray(weatherInfo) {
   if (weatherInfo.list[0].weather) {
-    // favoriteArray.value = JSON.parse(localStorage.getItem('favoriteArray'));
+    favoriteArray.value = JSON.parse(localStorage.getItem('favoriteArray'));
 
     if (favoriteArray.value.length < 5) {
         favoriteArray.value.push(weatherInfo);
