@@ -1,0 +1,11 @@
+@import './styles.css';
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px;
+
+  font-weight: normal;
+}
+
+
